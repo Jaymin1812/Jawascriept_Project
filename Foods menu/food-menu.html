@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Starter</title>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+
+    <!-- styles -->
+    <link rel="stylesheet" href="food.css">
+  </head>
+  <body>
+    <main>
+      <section class="container">
+        <!-- title -->
+        <div class="title">
+          <h2>our reviews</h2>
+          <div class="underline"></div>
+        </div>
+        <!-- review -->
+        <article class="menu-item" id="menu">
+            <img src="./menu-item.jpeg" alt="menu item" class="photo" id="img1" width="30%" >
+            <div class="item-info">
+              <header>
+                <h4 class="title" id="title1">buttermilk pancakes</h4>
+                <h4 class="price" id="price1">$15</h4>
+              </header>
+              <p class="item-text" id="desc1">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repudiandae, sint quam. Et reprehenderit fugiat nesciunt inventore
+                laboriosam excepturi! Quo, officia.
+              </p>
+            </div>
+          </article>
+        <div class="button-container">
+            <button class="prev-btn" onclick="prev();">
+              <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="next-btn" onclick="next();">
+              <i class="fas fa-chevron-right"></i>
+            </button>
+          </div>
+          <!-- random button -->
+          <button class="random-btn">surprise me</button>
+        </article>
+      </section>
+    </main>
+    <!-- javascript -->
+    <script src="food-menu.js"></script>
+  </body>
+</html>
+
